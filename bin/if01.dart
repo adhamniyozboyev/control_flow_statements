@@ -9,13 +9,10 @@
  */
 int func(int a) {
   if (a > 0) {
-   
     a++;
   }
- 
   return a;
 }
-
 void main() {
   print(func(-1));
 }
